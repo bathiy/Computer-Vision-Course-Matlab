@@ -1,0 +1,5 @@
+img = im2gray(imread("armxray.png"));
+threshvalues = multithresh(img, 3);
+label = quantize(img, threshvalues);
+montage({img, BW});
+

@@ -1,0 +1,2 @@
+load brainMRI
+imshow(brainMRI, [])
